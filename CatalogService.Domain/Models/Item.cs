@@ -24,7 +24,7 @@ namespace CatalogService.Domain.Models
         [Required]
         public int Amount { get; set; }
         [Required]
-        public Category Category { get; set; }
+        public int CategoryId { get; set; }
 
     }
 }

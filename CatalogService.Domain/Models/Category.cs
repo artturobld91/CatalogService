@@ -14,8 +14,5 @@ namespace CatalogService.Domain.Models
         [Required]
         public string Name { get; set; }
         public string Url { get; set; }
-
-        [Required]
-        public List<Item> Items { get; } = new();
     }
 }
